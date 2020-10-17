@@ -76,6 +76,7 @@ public class banker
         int max[][] = new int[n][m];
         int total[] = new int[m];
         int need[][] = new int[n][m];
+	    
         System.out.println("Enter allocation");
         for(int i=0 ; i<n ; i++)
             for(int j=0 ; j<m ; j++)
@@ -110,6 +111,5 @@ public class banker
         request(p, req, need, available, allocation, m);
 	finish = new boolean[n];
         safeSequence(available, finish, need, allocation, n, m);
-
     }
 }
