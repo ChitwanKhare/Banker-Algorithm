@@ -3,6 +3,7 @@ import java.util.*;
 
 public class banker
 {
+	/jugug
     static void safeSequence(int work[], boolean finish[], int need[][], int allocation[][], int n, int m)
     {
         int seq[] = new int[n];
